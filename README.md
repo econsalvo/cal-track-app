@@ -3,8 +3,8 @@
 
 # ✅ Cal-track To-Do List
 # 1. Project Setup
- * Set up Vite + React
- * Configure Tailwind CSS (for UI)
+ * [x] Set up Vite + React
+ * [x] Configure Tailwind CSS (for UI)
  * Install necessary libraries (React Router, Zustand/Redux for state management)
  * Set up authentication (Firebase/Auth0/custom backend with JWT)
 # 2. User Authentication

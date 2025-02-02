@@ -1,7 +1,4 @@
-@layer theme, base, components, utilities;
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss";
 
 *,
 ::after,
@@ -9,8 +6,4 @@
 ::backdrop,
 ::file-selector-button {
   margin: 0;
-}
-
-body {
-  @apply bg-[#0D0D0D];
 }
