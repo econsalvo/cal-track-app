@@ -1,12 +1,19 @@
-import calLogo from './assets/cal-logo.svg';
+import { Route, Routes } from 'react-router';
+import { Home } from './pages/Home';
+import { DashBoard } from './pages/DashBoard';
+import { PageRoutes } from './constants/pageRoutes';
+import { NavBar } from './components/layout/NavBar';
+import { PageLayout } from './components/layout/PageLayout';
 
 export const App = () => {
   return (
-    <div className=" bg-[#0D0D0D] min-h-screen flex justify-center items-center pt-[14px]" >
-      <h1 className="text-amber-50 text-4xl">
-        Cal-Track
-      </h1>
-      <img src={calLogo} className="w-10 h-10" />
-    </div>
+    <PageLayout>
+      <NavBar />
+      <Routes>
+        <Route path={PageRoutes.HOME} element={<Home />} />
+        <Route path={PageRoutes.DASHBOARD} element={<DashBoard />} />
+      </Routes>
+    </PageLayout>
+
   )
 };

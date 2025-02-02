@@ -5,7 +5,8 @@
 # 1. Project Setup
  * [x] Set up Vite + React
  * [x] Configure Tailwind CSS (for UI)
- * Install necessary libraries (React Router, Zustand/Redux for state management)
+ * [x] Install necessary libraries (React Router, Zustand/Redux for state management)
+ * [] Navigation
  * Set up authentication (Firebase/Auth0/custom backend with JWT)
 # 2. User Authentication
  * Sign-up/Login (Google, Email)
